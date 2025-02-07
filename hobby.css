@@ -66,6 +66,13 @@ main{
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
+#main-text{
+  width: 100%;
+  margin: 1vh 1vw;
+  font-size: calc(5px + 5vw);
+}
+
+
 main p{
   text-align: left;
   margin: 1vh 2vw;
@@ -73,8 +80,7 @@ main p{
 }
 
 #main-images{
-  height: auto;
-  width: auto;
+  max-width: 100%;
   margin: 1vh 1vw;
   text-align: center;
   transform: scale(1);
@@ -153,22 +159,10 @@ footer a{
     justify-content: center;
   }
 
-  #main-title {
-    text-align: center;
-    color: black;
-    font-size: calc(10px + 5vw);
-  }
-
-  #main-text{
-    width: 100%;
-    margin: 1vh 1vw;
-    font-size: calc(5px + 5vw);
-  }
-
   #main-images {
+    max-width: 100%;
     margin: 1vh auto;
     justify-content: space-evenly;
-
   }
 
   #BBQ, #greek-meat-platter, #Fish-and-Chips, #Steak {

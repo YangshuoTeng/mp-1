@@ -62,10 +62,10 @@ main {
 }
 
 /* Calculator styling */
-#main-title {
+#main-title{
+  font-size: calc(10px + 2vw);
   text-align: center;
-  font-size: calc(16px + 1.5vw);
-  margin-bottom: 20px;
+  padding: 1vh 0;
   font-family: "Lucida Console", "Courier New", monospace;
 }
 

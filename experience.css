@@ -73,18 +73,10 @@ main{
   padding: 2vh 2vw;
 }
 
-#main-text{
-  align-self: center;
-  width: 70%;
-  margin: 1vh 1vw;
-}
-
-
 #main-title{
-  margin: 2vw 0;
-  text-align: center;
   font-size: calc(10px + 2vw);
-  color: Black;
+  text-align: center;
+  padding: 1vh 0;
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -171,18 +163,9 @@ footer a{
     justify-content: center;
   }
 
-  #main-text{
-    align-self: center;
-    width: 100%;
-    margin: 1vh 1vw;
-  }
+
   }
 
-  #main-title{
-    text-align: center;
-    color: black;
-    font-size: calc(10px + 5vw);
-  }
 
 
 

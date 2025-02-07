@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Centering the page*/
+#page-wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*Header starts*/
+header{
+  display: flex;
+  flex-direction: column;
+  padding: 1vh 1vw;
+  background-color: #565D56;
+  color: white;
+  text-align: center;
+}
+/*Header ends*/
+
+
+/*Two column container starts:*/
+#container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+nav{
+  width: 30%;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #F0F4F1;
+  font-size: calc(2px + 2vw);
+  text-align: center ;
+  list-style: none;
+  padding-left: 0;
+}
+
+nav li{
+  font-size: calc(3px + 3vw);
+  width: 90%;
+  background-color:#C5CDC7;
+  padding: 2vh 0;
+  margin: 5vh auto;
+}
+
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  width:70%;
+  background-color: #C5CDC7;
+}
+
+#main{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 2vh 2vw;
+}
+
+
+#main-title{
+  margin: 2vw 0;
+  text-align: center;
+  font-size: calc(10px + 2vw);
+  color: Black;
+}
+
+#description{
+  align-self: center;
+  width: 100%;
+  margin: 1vh 10vw;
+  font-size: calc(10px + 1vw);
+}
+
+#main-text1, #main-text2{
+  margin: 5vh 0;
+  border: black solid 1px;
+  background-color: aliceblue ;
+  border-radius: 15px;
+}
+
+
+#subtitle1, #subtitle2{
+  margin: 1vh 0;
+  padding: 0 1%;
+  font-size: calc(10px + 1vw);
+}
+
+#main-description1, #main-description2{
+  font-size: calc(1px + 2vw);
+  padding: 0 2%;
+  margin: 1vh;
+}
+
+
+main ul li{
+  font-size: calc(1px + 2vw);
+  padding: 0 2%;
+  margin: 1vh;
+  list-style: square;
+}
+
+footer{
+  background-color: #383B39;
+  color: bisque;
+  padding: 1vh 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+footer a{
+  color: bisque;
+}
+
+@media screen and (max-width: 900px) {
+  header{
+    text-align: center;
+  }
+
+  #container{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  nav{
+    width: 100%;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #565D56;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  nav li{
+    font-size: calc(2px + 1.5vw);
+    background-color:#C5CDC7;
+    padding: 1% .5%;
+    margin: 1% .5%;
+  }
+
+  nav a{
+    text-decoration: none;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 100vh;
+    background-color: #C5CDC7;
+  }
+
+  #main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  #main-title{
+    text-align: center;
+    color: black;
+    font-size: calc(10px + 5vw);
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+}
+

@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#page-wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  padding: 1vh 1vw;
+  background-color: #565D56;
+  color: white;
+  text-align: center;
+}
+
+#content{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+nav{
+  width: 30%;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #F0F4F1;
+  font-size: calc(2px + 2vw);
+  text-align: center ;
+  list-style: none;
+  padding-left: 0;
+}
+
+nav li{
+  font-size: calc(3px + 3vw);
+  width: 100%;
+  background-color:#C5CDC7;
+  padding: 2vh 0;
+  margin: 5vh auto;
+}
+
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Main content */
+main {
+  width: 70%;
+  background-color: #C5CDC7;
+  padding: 20px;
+}
+
+/* Calculator styling */
+#main-title {
+  text-align: center;
+  font-size: calc(16px + 1.5vw);
+  margin-bottom: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#operations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #E8EAE6;
+}
+
+/* Input fields */
+#first, #second {
+  width: 80%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid #565D56;
+  border-radius: 5px;
+}
+
+/* Buttons */
+#addition, #subtraction, #multiply, #divide, #power, #doClear {
+  width: 80%;
+  height: 45px;
+  margin: 10px 0;
+  font-weight: bold;
+  background-color: #565D56;
+  color: white;
+  border-radius: 5px;
+}
+
+#output{
+  text-align: center;
+  font-size: calc(16px + 1vw);
+}
+footer{
+  background-color: #383B39;
+  color: bisque;
+  padding: 1vh 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+footer a{
+  color: bisque;
+}
+
+@media screen and (max-width: 900px) {
+  header{
+    text-align: center;
+  }
+
+  #content{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  nav{
+    width: 100%;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #565D56;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  nav li{
+    font-size: calc(2px + 1.5vw);
+    background-color:#C5CDC7;
+    padding: 1% .5%;
+    margin: 1% .5%;
+  }
+
+  nav a{
+    text-decoration: none;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  #operations {
+    width: 100%;
+  }
+
+  #first, #second, #addition, #subtraction, #multiply, #divide, #power, #doClear {
+    width: 80%;
+  }
+}
+

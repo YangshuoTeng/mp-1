@@ -3,13 +3,13 @@
   box-sizing: border-box;
 }
 
-/*Centering the page*/
+
 #page-wrapper{
   width: 80%;
   margin: 0 auto;
 }
 
-/*Header starts*/
+
 header{
   display: flex;
   flex-direction: column;
@@ -18,10 +18,7 @@ header{
   color: white;
   text-align: center;
 }
-/*Header ends*/
 
-
-/*Two column container starts:*/
 #container{
   width: 100%;
   display: flex;

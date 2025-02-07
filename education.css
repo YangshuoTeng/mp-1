@@ -3,13 +3,12 @@
   box-sizing: border-box;
 }
 
-/*Centering the page*/
 #page-wrapper{
   width: 80%;
   margin: 0 auto;
 }
 
-/*Header starts*/
+
 header{
   display: flex;
   flex-direction: column;
@@ -18,10 +17,7 @@ header{
   color: white;
   text-align: center;
 }
-/*Header ends*/
 
-
-/*Two column container starts:*/
 #container{
   width: 100%;
   display: flex;
@@ -178,14 +174,5 @@ footer a{
     flex-direction: column;
     justify-content: center;
   }
-
-
-  #main-title{
-    text-align: center;
-    color: black;
-    font-size: calc(10px + 5vw);
-    font-family: "Lucida Console", "Courier New", monospace;
-  }
-
 }
 

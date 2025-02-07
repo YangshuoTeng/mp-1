@@ -41,7 +41,7 @@ nav ul{
 
 nav li{
   font-size: calc(3px + 3vw);
-  width: 100%;
+  width: 90%;
   background-color:#C5CDC7;
   padding: 2vh 0;
   margin: 5vh auto;
@@ -53,15 +53,13 @@ nav a{
   color: black;
 }
 
-
-/* Main content */
 main {
   width: 70%;
   background-color: #C5CDC7;
   padding: 20px;
 }
 
-/* Calculator styling */
+
 #main-title{
   font-size: calc(10px + 2vw);
   text-align: center;
@@ -79,7 +77,7 @@ main {
   background-color: #E8EAE6;
 }
 
-/* Input fields */
+
 #first, #second {
   width: 80%;
   height: 40px;
@@ -89,7 +87,7 @@ main {
   border-radius: 5px;
 }
 
-/* Buttons */
+
 #addition, #subtraction, #multiply, #divide, #power, #doClear {
   width: 80%;
   height: 45px;
